@@ -1,3 +1,3 @@
 FROM       docker.io/centos/httpd:latest
-
-COPY php/index.php /var/www/html/  
+EXPOSE 82 80
+ADD php/ /var/www/html/  
