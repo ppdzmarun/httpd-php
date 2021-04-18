@@ -1,3 +1,3 @@
-FROM       docker.io/centos/httpd:latest
+FROM        docker.io.httpd
 EXPOSE 80
 ADD php/ /var/www/html/
